@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3><a href="index.html">Sign UP</a></h3>
+        <h3><a href="login.html">log in</a></h3>
+      </nav>
+      <h1>Fakestoreapi Products</h1>
+    </header>
+    <main>
+      <div id="container">
+        <div class="container-sign-up">
+          <h1>Sign Up</h1>
+          <p id="signup-message"></p>
+
+          <label for="inputUsername" id="inputUsernameLabel">Username</label>
+          <input
+            type="text"
+            id="inputUsername"
+            placeholder="Username"
+            required
+            minlength="6"
+          />
+
+          <label for="input-Email-SignUp" id="input-Email-SignUpLabel"
+            >Email</label
+          >
+          <input
+            type="email"
+            id="input-Email-SignUp"
+            placeholder="Email"
+            required
+          />
+
+          <label for="inputPassword" id="inputPasswordLabel">Password</label>
+          <input
+            type="password"
+            id="input-Password-SignUp"
+            placeholder="Password"
+            required
+            minlength="8"
+          />
+
+          <label for="inputConfirmPassword" id="inputConfirmPasswordLabel"
+            >Confirm password
+          </label>
+          <input
+            type="password"
+            id="inputConfirmPassword"
+            placeholder="Confirm password"
+            minlength="8"
+            required
+          />
+
+          <label for="terms" id="termsLabel"
+            >I agree to the terms & conditions</label
+          >
+          <input type="checkbox" name="terms" id="terms" required />
+
+          <button id="sign-up">Submit</button>
+          <p>Already have an account? <a href="login.html">Sign in</a></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>By Salman 2023</footer> 
+  </body>
+  <script src="script.js"></script>
+</html>
